@@ -20,7 +20,7 @@ class School
     end
   end
   
-  def sort(grade)
+  def sort
     
   end
 end
