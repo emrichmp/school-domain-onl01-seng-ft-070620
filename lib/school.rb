@@ -25,5 +25,6 @@ class School
     roster.each do |key, value|
       sort_hash[key] = value.sort
     end
+    
   end
 end
