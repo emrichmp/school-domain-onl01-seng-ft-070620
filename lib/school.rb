@@ -13,7 +13,7 @@ class School
   end
   
   def grade(level)
-    roster.detect
+    roster.detect do }
   end
   
 end
