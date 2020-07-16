@@ -1,6 +1,6 @@
 # code here!
 class School
-  attr
+  attr_accessor
   def initialize(name)
     @name = name
     @roster = {}
