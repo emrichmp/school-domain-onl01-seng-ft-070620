@@ -13,7 +13,7 @@ class School
   end
   
   def grade(grade)
-    roster.detect do |key, value|
+    roster.sort do |key, value|
       if key == grade
         return value
       end
